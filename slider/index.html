@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imageContainer">
+        <img src="./image/3.png" alt="image" class="active" />
+        <img src="./image/game.png" alt="image" />
+        <img src="./image/ecommerce.png" alt="image" />
+        <img src="./image/ticTacToe.png" alt="image" />
+      </div>
+      <div class="btn">
+        <button class="right">&#10095;</button>
+        <button class="left">&#10094;</button>
+      </div>
+      <div class="dots">
+        <span class="dot active" num="0" onclick="handleCircleClick(this)"></span>
+        <span class="dot" num="1" onclick="handleCircleClick(this)"></span>
+        <span class="dot" num="2" onclick="handleCircleClick(this)"></span>
+        <span class="dot" num="3" onclick="handleCircleClick(this)"></span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
